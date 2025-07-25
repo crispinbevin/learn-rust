@@ -1,0 +1,20 @@
+
+# Ignore all target folders (Rust build output)
+**/target/
+
+# IDE and editor folders
+**/.idea/
+**/.vscode/
+**/*.swp
+
+# Backup and temporary files
+**/*~
+**/#*#
+**/.DS_Store
+
+# If using logs or coverage tools
+**/*.log
+**/coverage/
+
+# Optionally ignore .env files if used
+**/.env
